@@ -130,7 +130,6 @@ fun BottomSection() {
             Text(text = stringResource(id = R.string.login),
                 style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Medium))
         }
-
     }
 
     
