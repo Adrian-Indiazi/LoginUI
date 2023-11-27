@@ -3,4 +3,7 @@
     <string name="to_let">The To let\n</string>
     <string name="get_house">Find Your House</string>
     <string name="login">Login\n</string>
+    <string name="forgot_password">Or continue with</string>
+    <string name="sign_up">Sign up</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
 </resources>
