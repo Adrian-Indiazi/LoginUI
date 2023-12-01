@@ -54,10 +54,13 @@ fun SocialMedia(
 
 
 
-fun Modifier.socialMedia() : Modifier = composed {
-    if (isSystemInDarkTheme()) {
-        background(Color.Transparent).border(1.dp, BlueGray, RoundedCornerShape(4.dp))
-    } else {
-        background(LightBlueWhite)
+fun Modifier.socialMedia() : Modifier {
+    return composed {
+        if (isSystemInDarkTheme()) {
+            background(Color.Transparent).border(1.dp, BlueGray, RoundedCornerShape(4.dp))
+        } else {
+            background(LightBlueWhite)
+        }
     }
+
 }
